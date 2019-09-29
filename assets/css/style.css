@@ -286,6 +286,31 @@ footer {
         float: none;
         margin-left: 70px;
     }
+
+    #minigame {
+        width: 524px;
+        height: 350px;
+    }
+
+    #plate {
+        width: 524px;
+        height: 350px;
+    }
+
+    #nebula {
+        width: 524px;
+        height: 350px;
+    }
+
+    #mixtape {
+        width: 524px;
+        height: 350px;
+    }
+
+    #paint {
+        width: 524px;
+        height: 350px;
+    }
     .wrapper {
         float: none;
         width: 100%;
