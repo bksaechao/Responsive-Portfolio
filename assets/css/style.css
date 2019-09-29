@@ -313,13 +313,43 @@ footer {
     }
     .wrapper {
         float: none;
-        width: 100%;
+        width: fit-content;
+        height: fit-content;
+        margin-bottom: 20px;
     }
 
     .wrapper2 { 
         float: none;
         margin-left: 30px;
-        width: 100%;
+        width: fit-content;
+        height: fit-content;
     }
 
+    .art {
+        padding: 30px 0px;
+        font-size: 32px;
+    }
+
+    .music {
+        padding: 30px 0px;
+        font-size: 32px;
+        margin-top: 160px;
+    }
+
+    .space {
+        padding: 30px 0px;
+        font-size: 32px; 
+    }
+
+    .food {
+        padding: 30px 0px;
+        font-size: 32px;
+        margin-top: 386px;
+    }
+
+    .scratch {
+        padding: 30px 0px;
+        font-size: 32px;
+        margin-top: 160px;
+    }
 }
