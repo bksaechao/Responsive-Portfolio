@@ -3,14 +3,13 @@ body {
     background-image: url("../images/playstation-pattern.png");
     min-height: 100vh;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
 header {
     border: solid 1px #cccccc;
     background-color: #ffffff;
-    padding: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     position: relative;
 }
 
@@ -28,9 +27,11 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     color: #ffffff;
+    margin: 0 auto;
+    width: fit-content;
     padding: 20px;
-    display: inline;
-    margin-left: 267px;
+    margin-left: 286px;
+    display: inline-block;
 }
 
 .about {
@@ -48,9 +49,9 @@ hr {
 
 nav {
     font-size: 15px;
-    display: inline;
+    right: 18.9%;
     position: absolute;
-    right: 19%;
+    top: 30%;
 }
 
 a {
@@ -191,8 +192,6 @@ textarea {
 
 a:hover {
     cursor: pointer;
-    color: slateblue;
-    opacity: 0.8;
 }
 
 button:hover {
@@ -222,11 +221,17 @@ footer {
         }
 
         .name {
-            margin-left: 0;
+            margin-left: 20px;
+            display: inline-block;
+        }
+
+        header {
+            position: relative;
         }
 
         nav {
             right: 5%;
+            margin-top: 20px;
         }
 
         #raindrop {
@@ -260,20 +265,19 @@ footer {
 
     .name {
         width: 100%;
-        float: left;
         text-align: center;
-        top: 0;
-        margin-top: -10px;
+        margin: 0 auto;
     }
 
     header {
-        padding: 0px 0px 30px 0px;
+        padding-bottom: 20px;
+        position: static;
     }
 
     nav{
-        bottom: 0;
-        margin: 20px;
-        margin-right: 180px;
+        position: static;
+        right: 0;
+        margin-left: 250px;
     }
 
     #raindrop {
@@ -281,6 +285,16 @@ footer {
         width: 450px;
         float: none;
         margin-left: 70px;
+    }
+    .wrapper {
+        float: none;
+        width: 100%;
+    }
+
+    .wrapper2 { 
+        float: none;
+        margin-left: 30px;
+        width: 100%;
     }
 
 }
